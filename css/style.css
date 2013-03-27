@@ -1,0 +1,244 @@
+@font-face {
+	font-family:"Gender";
+	src:url("../fonts/Gender.eot?") format("eot"),
+		url("../fonts/Gender.woff") format("woff"),
+		url("../fonts/Gender.ttf") format("truetype"),
+		url("../fonts/Gender.svg#Gender") format("svg");
+		font-weight:normal;
+		font-style:normal;
+	}
+
+* { padding: 0; margin: 0; }
+
+#content { 
+	height: 100%;
+	width: 342px;
+	margin-left: 7%;
+}
+
+h1 {
+	font-family: "Gender", Helvetica;
+	font-size: 158px;
+	color: #452b4b;
+	font-weight: normal;
+	background: none;
+	padding-top: 20px;
+	left: 0;
+	border-top: 60px solid rgba(69,43,75,1);
+}
+.win h1 {
+	border-top: 56px solid rgba(69,43,75,1);
+}
+.win.ie h1 {
+	border-top: 30px solid rgba(69,43,75,1);
+}
+
+h1 span {
+	display: block;
+	line-height: 120px;
+}
+
+h1 span.subtitle {
+	font-size: 97px;
+	letter-spacing: 1px;
+}
+p { 
+	color: rgba(0,0,0,0.8); 
+	font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	font-size: 16px; 
+	line-height: 24px; 
+	-webkit-font-smoothing: antialiased; 
+	font-weight: normal; 
+}
+
+.about {
+	position: relative;
+	width: 302px;
+	background: rgba(69,43,75,1);
+	padding: 15px 20px 50px;
+	min-height: 100%;
+}
+
+.about p {
+	color: rgba(255,255,255,.8);
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.about p strong, .about p a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.about p a {
+	text-decoration: none;
+}
+
+.about p.description {
+	border-top: 1px solid rgba(255,255,255,.1);
+	font-size: 16px;
+	line-height: 24px;
+	padding: 17px 0;
+}
+
+.win.ie .about p.description {
+	font-size: 14px;
+}
+
+.about p.byline {
+	padding-bottom: 20px;
+	line-height: 28px;
+}
+
+.about span.pc p.byline {
+	font-size: 18px;
+}
+
+.about .byline strong {
+	cursor: help;
+}
+
+#credz { 
+	font-size: 11px; 
+}
+
+
+/* Windows Renders fonts like a goat's butthole */
+.win .byline {
+	font-size: 22px;
+}
+
+.win h1 span.subtitle {
+	letter-spacing: 0;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+	#content {
+		margin-left: 0;
+		width: 100%;
+	}
+	.about {
+		position: relative;
+		width: 100%;
+		background: rgba(69,43,75,.7);
+		padding: 0;
+		margin-top: 0;
+	}
+	h1 {
+		position: relative;
+		padding: 20px 20px 0;
+		top: 0;
+		font-size: 128px;
+		line-height: 100px;
+		margin-bottom: 20px;
+		font-weight: normal;
+		border-top: none;
+	}
+	h1 span.subtitle {
+		font-size: 81px;
+		letter-spacing: 0;
+		line-height: 80px;
+	}
+	.about p.byline, .about p.description {
+		padding: 10px 20px 20px;
+		font-size: 21px;
+	}
+	.about p.description {
+		padding: 20px 0;
+		margin: 0 20px;
+		border-top: 1px solid rgba(255,255,255,.8);
+		font-size: 16px;
+	}
+	#backstretch img{
+		opacity: .8;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px)
+and (max-width : 480px) 
+and (orientation : landscape) {
+/* Styles */
+	h1 {
+		font-size: 202px;
+		padding-top: 40px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	h1 span.subtitle {
+		line-height: 160px;
+		font-size: 127px;
+	}
+
+	.about p.byline {
+		padding-top: 20px;
+		margin-top: -5px;
+		font-size: 26px;
+	}
+
+	.about p.description {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+	h1 span.subtitle {
+		font-size: 99px;
+		letter-spacing: 0px;
+	}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

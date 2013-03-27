@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Chris Merritt</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+	<script src="js/css_browser_selector.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34056633-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>	
+    
+<body>
+	<div id="content">
+		<h1><span>admiral</span><span class="subtitle">of awesome</span></h1>
+		<div class="about">
+			<p class="byline">and master of management. Many of the humans call me <strong>Chris Merritt</strong>.</p>
+			<p class="description">I’m a husband and a dad and I’m known to work in Greenville, South Carolina. <!-- I have an old school <a href="#">resume</a> or you can go all binary on me and check me out on <a href="#" title="My LinkedIn Profile">LinkedIn</a>. --> I’m a member of a rare breed of freelance project managers. Holler if you think you’ve got a product worthy of The Admiral. I check the <a href="mailto:hello@chrismerritt.cc">emails</a>.</p>
+			<p class="description">I have been known to <a href="http://www.twitter.com/chrismerritt">tweet</a> from time to time, I shoot guns and <a href="http://instagram.com/tophermerritt">photos</a>. Looking for a resume? Check me out on <a href="http://www.linkedin.com/pub/chris-merritt/56/16b/57">Linkedin</a>.</p>
+			<!-- <p id="credz">Props to <a href="http://matthewsmith.cc" title="Bozo">Matthew</a> and <a href="http://chandlervdw.com">Chandler</a> for this site.</p>  -->
+		</div>	
+	</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$.backstretch("chris.new.jpg", {speed: 150});
+		$('.byline strong').mouseover( function() {
+			$('#backstretch img').attr('src', 'chris2.new.jpg');
+		}).mouseout( function() {
+			$('#backstretch img').attr('src', 'chris.new.jpg');
+		});
+	});
+</script>
+
+
+</body>
+</html>
